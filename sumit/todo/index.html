@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>to do app by sumit</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>To do App</h1>
+        </div>
+
+        <form class="new-task-container box">
+            <label for="new-task">Add new task</label>
+            <input type="text" id="new-task">
+            <input type="submit" value="Add Task" id="add-task">
+
+        </form>
+
+        <div class="todo-list-box">
+            <h2>Incomplete box</h2>
+            <ul id="items">
+                <li class="item">
+                    <input type="checkbox"> <label>Task Name</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox"> <label>Task Name</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="todo-completed-task">
+            <h2>Completed task</h2>
+            <ul>
+                <li class="item">
+                    <label>Task Name</label> <button class="delete">Delete</button>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
